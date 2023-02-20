@@ -87,7 +87,7 @@ function seq(){
 }
 
 function playSound(name) {
-    var audio = new Audio("Manikanta12n/Simon/sounds/" + name + ".mp3");
+    var audio = new Audio("sounds/" + name + ".mp3");
     audio.play();
 }
 
